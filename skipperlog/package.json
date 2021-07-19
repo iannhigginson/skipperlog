@@ -1,0 +1,38 @@
+{
+  "name": "skipperlog",
+  "main": "app.js",
+  "version": "7.0.3",
+  "author": "iannhigginson",
+  "description": "A skipper's log",
+  "license": "GNU AGPLv3",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "Cruising",
+    "Skipper's log",
+    "Yatch",
+    "Yatching",
+    "Sailing"
+  ],
+  "repository": "https://github.com/iannhigginson/skipperlog",
+  "bugs": {
+    "url": "https://github.com/iannhigginson/skipperlog/issues"
+  },
+  "homepage": "https://github.com/iannhigginson/skipperlog",
+  "dependencies": {
+    "@nativescript/core": "~7.0.0",
+    "@nativescript/geolocation": "^7.0.0",
+    "@nativescript/theme": "~2.3.0",
+    "nativescript-exit": "^1.0.1",
+    "nativescript-google-maps-sdk": "^3.0.2",
+    "nativescript-permissions": "^1.3.11",
+    "nativescript-toast": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nativescript/android": "7.0.1",
+    "@nativescript/webpack": "~3.0.0"
+  },
+  "private": "true",
+  "readme": "README.md"
+}

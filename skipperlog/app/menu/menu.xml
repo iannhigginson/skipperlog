@@ -1,0 +1,29 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="menuLoaded" id="menu">
+
+ <Page.actionBar>
+  <ActionBar class="action-bar" title=" Menu " android.iconVisibility="always"></ActionBar>
+ </Page.actionBar>
+
+ <ScrollView orientation="vertical">
+
+  <StackLayout class="menuBkg">
+
+   <StackLayout class="menuList" id="menuList">
+    <Label class="mainMenuItem" text=" " />
+    <Label class="mainMenuItem" text="Vessel details" tap="vdetails"/>
+    <Label class="mainMenuItem" text=" " />
+    <Label class="mainMenuItem" text="Location" tap="geoloc"/>
+    <Label class="mainMenuItem" text=" " />
+    <Label class="mainMenuItem" text="Map" tap="map" />
+    <Label class="mainMenuItem" text=" " />
+    <Label class="mainMenuItem" text="Settings" tap="settings" />
+    <Label class="mainMenuItem" text=" " />
+    <Label class="mainMenuItem" text="Exit" tap="exitThis" />
+    <Label class="mainMenuItem" text=" " />
+   </StackLayout>
+
+  </StackLayout>
+
+ </ScrollView>
+
+</Page>

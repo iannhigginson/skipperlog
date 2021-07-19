@@ -1,0 +1,34 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="vdPageLoaded" class="page">
+
+ <Page.actionBar>
+  <ActionBar title=" Logs" android.iconVisibility="always" class="action-bar">
+   <ActionItem tap="home">
+    <Label class="menuItem" text="Home " />
+   </ActionItem>
+   <ActionItem tap="menu">
+    <Image src="res://menu" />
+   </ActionItem>
+  </ActionBar>
+ </Page.actionBar>
+
+ <StackLayout style="padding: 10px;">
+  <Label class="center header" id="logHeader" text="Vessel details"/>
+  <Label class="spacer" id="" text=" " />
+  <StackLayout orientation="horizontal">
+   <Label class="boldtxt" text="Vessal name: " />
+   <Label class="stdtxt" id="vesselname" />
+  </StackLayout>
+  <Label class="spacer" id="" text=" " />
+  <StackLayout orientation="horizontal">
+   <Label class="boldtxt" text="Vessel registration : " />
+   <Label class="stdtxt" id="regno" />
+  </StackLayout>
+  <Label class="spacer" id="" text=" " />
+  <StackLayout orientation="horizontal">
+   <Label class="boldtxt" text="Contact number : " />
+   <Label class="stdtxt" id="econtact" />
+  </StackLayout>
+  <Label class="spacer" id="" text=" " />
+ </StackLayout>
+
+</Page>

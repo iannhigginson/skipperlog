@@ -1,0 +1,27 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" id="initialise">
+
+ <Page.actionBar>
+  <ActionBar title=" Start" android.iconVisibility="always" class="action-bar">
+   <!--<ActionItem class="menuItem" text="Home" tap="home"/>
+   <ActionItem  class="menuItem" text="Edit" tap="edit" />
+   <ActionItem class="menuItem" text="Exit" tap="exitThis"/>-->
+  </ActionBar>
+ </Page.actionBar>
+
+ <StackLayout style="padding: 25px;">
+  <ScrollView  orientation="vertical" height="800">
+   <StackLayout id="layout">
+    <Label id="loc" text="Please Enter The Vessal's details." class="center stdtxt" />
+    <Label id="" text=" " class="spacer" />
+    <TextField id="vesselName" hint="Vessel name" />
+    <Label id="" text=" " class="spacer" />
+    <TextField id="regNo" hint="Registration number" />
+    <Label id="" text=" " class="spacer" />
+    <TextField id="econtact" hint="Emergency contact number" />
+    <Label id="" text=" " class="spacer" />
+    <Button text="Go" tap="onTap"></Button>
+   </StackLayout>
+  </ScrollView>
+ </StackLayout>
+
+</Page>

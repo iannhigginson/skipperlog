@@ -1,0 +1,28 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="editPageLoaded" class="page">
+
+ <Page.actionBar>
+  <ActionBar title=" Edit this log" android.iconVisibility="always" class="action-bar">
+   <ActionItem tap="home">
+    <Label class="menuItem" text="Home " />
+   </ActionItem>
+   <ActionItem tap="menu">
+    <Image src="res://menu" />
+   </ActionItem>
+  </ActionBar>
+ </Page.actionBar>
+
+ <StackLayout style="padding: 25px;">
+
+  <Label text="Edit log details." class="h2 text-center stdtxt" textWrap="true"/>
+
+  <ScrollView orientation="vertical" height="800">
+
+   <StackLayout id="layout">
+    <Label id="" text=" " class="spacer" />
+   </StackLayout>
+
+  </ScrollView>
+
+ </StackLayout>
+
+</Page>

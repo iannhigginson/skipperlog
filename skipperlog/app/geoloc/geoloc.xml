@@ -1,0 +1,25 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" id="initialise">
+
+ <Page.actionBar>
+  <ActionBar title=" Logs" android.iconVisibility="always" class="action-bar">
+   <ActionItem tap="home">
+    <Label class="menuItem" text="Home " />
+   </ActionItem>
+   <ActionItem tap="menu">
+    <Image src="res://menu" />
+   </ActionItem>
+  </ActionBar>
+ </Page.actionBar>
+
+ <StackLayout style="padding: 25px;">
+  <ScrollView  orientation="vertical" height="800">
+   <StackLayout id="layout">
+    <Label class="center stdtxt" id="loc" text="Location" textWrap="true" />
+    <Label class="spacer" id="" text=" " />
+    <Label class="spacer" id="" text=" " />
+    <Button text="Go" tap="onTap"></Button>
+   </StackLayout>
+  </ScrollView>
+ </StackLayout>
+
+</Page>
